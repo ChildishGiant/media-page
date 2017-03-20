@@ -40,6 +40,7 @@ body{
   display: block;
   margin: 0 auto;
   fill: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 
   -webkit-transition: fill 300ms ease-in-out;
   -moz-transition: fill 300ms ease-in-out;

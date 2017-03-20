@@ -2,8 +2,6 @@ var alpha = 0.6; //Intensity of overlay from 0 - 1
 
 $(function() {
 
-  updateCSS();
-
   $("li").hover(function() {
     $("#dimmed").css("background-color", $(this).attr("hoverColor").replace(')', ', '+alpha+')').replace('rgb', 'rgba') );
   }, function() {
