@@ -11,7 +11,7 @@ $(function() {
 
 
 function updateCSS(){
-  $(".logo").css("height", ($("ul").height()*0.80) / $(".logo").length  );
+  $(".logo").css("height", ($("ul").height()*0.75) / $(".logo").length  );
 };
 
 /*

@@ -7,6 +7,7 @@ html{
   background-color: #24262e;
   padding: 0;
   margin: 0;
+
 }
 
 body{
@@ -39,8 +40,8 @@ body{
 .logo {
   display: block;
   margin: 0 auto;
-  fill: rgba(255, 255, 255, 0.5);
-  color: rgba(255, 255, 255, 0.5);
+  fill: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
 
   -webkit-transition: fill 300ms ease-in-out;
   -moz-transition: fill 300ms ease-in-out;
@@ -65,4 +66,23 @@ ul{
   top: 50%;
   transform: translateY(-50%);
   right:5%;
+}
+
+#textBox{
+    padding: 5% 0 0 10%;
+    top:10%;
+}
+
+.big{
+  font-size: 5em;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase
+}
+
+.small{
+  font-size: 2em;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
 }
